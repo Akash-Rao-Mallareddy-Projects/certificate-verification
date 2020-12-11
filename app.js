@@ -22,7 +22,7 @@ app.use( require('express-force-domain')('https://www.girlscripthyderabad.tech')
 app.use(robots(__dirname + '/robots.txt'));
 
 
-mongoose.connect("mongodb+srv://girlscripthyderabad:hyd@girlscript@cluster0.p3ud3.mongodb.net/certificateDB", {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://admin:admin@cluster0.x36xu.mongodb.net/certificateDB", {useNewUrlParser: true, useUnifiedTopology: true});
 const certificateSchema = {
   certNo : String,
   event : String,
