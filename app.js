@@ -96,7 +96,7 @@ app.get("/verify", function(req, res){
 
 app.post("/verify", function(req, res){
   const certId = req.body.certid;
-  res.redirect("https://www.girlscripthyderabad.tech/verify/?certno=" +certId);
+  res.redirect("http://certificate-verification-akash.herokuapp.com/verify/?certno=" +certId);
 });
 
 
