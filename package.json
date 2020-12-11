@@ -1,0 +1,35 @@
+{
+  "name": "girlscript-hyd-node",
+  "version": "1.0.0",
+  "description": "GirlScript Hyderabad Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/girlscripthyderabad/girlscript-hyd-node.git"
+  },
+  "author": "GirlScript Hyderabad",
+  "license": "ISC",
+  "engines": {
+    "node": "12.18.2"
+  },
+  "bugs": {
+    "url": "https://github.com/girlscripthyderabad/girlscript-hyd-node/issues"
+  },
+  "homepage": "https://github.com/girlscripthyderabad/girlscript-hyd-node#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-force-domain": "0.0.6",
+    "express-robots-txt": "^0.4.1",
+    "heroku-ssl-redirect": "0.0.4",
+    "mongoose": "^5.9.21",
+    "path": "^0.12.7",
+    "prerender-node": "^3.2.5",
+    "robots.txt": "^1.1.0"
+  }
+}
