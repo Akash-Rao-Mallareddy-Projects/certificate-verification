@@ -18,8 +18,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(compression());
 app.use(express.static("public"));
 app.use(require('prerender-node'));
-## app.use( require('express-force-domain')('https://akash-rao-mallareddy-projects.github.io/certificate-verification/'));
-## app.use(robots(__dirname + '/robots.txt'));
+// app.use( require('express-force-domain')('https://akash-rao-mallareddy-projects.github.io/certificate-verification/'));
+// app.use(robots(__dirname + '/robots.txt'));
 
 
 mongoose.connect("mongodb+srv://admin:admin@cluster0.x36xu.mongodb.net/certificateDB", {useNewUrlParser: true, useUnifiedTopology: true});
