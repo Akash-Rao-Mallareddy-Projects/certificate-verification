@@ -4,13 +4,13 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const mongoose = require('mongoose');
 var path = require('path');
-var sslRedirect = require('heroku-ssl-redirect');
+// var sslRedirect = require('heroku-ssl-redirect');
 var robots = require('robots.txt');
 var compression = require('compression');
 
 
 const app = express();
-app.use(sslRedirect());
+// app.use(sslRedirect());
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({extended: true}));
