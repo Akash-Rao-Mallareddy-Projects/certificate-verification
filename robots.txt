@@ -1,4 +1,0 @@
-UserAgent: *
-Allow:/
-Crawl-delay: 5
-Sitemap: https://bhjbbkj/sitemap.xml
