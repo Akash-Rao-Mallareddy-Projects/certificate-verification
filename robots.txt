@@ -1,4 +1,4 @@
 UserAgent: *
 Allow:/
 Crawl-delay: 5
-Sitemap: https://www.girlscripthyderabad.tech/sitemap.xml
+Sitemap: https://bhjbbkj/sitemap.xml
