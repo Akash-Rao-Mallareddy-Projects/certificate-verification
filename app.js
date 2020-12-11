@@ -5,7 +5,7 @@ const ejs = require("ejs");
 const mongoose = require('mongoose');
 var path = require('path');
 // var sslRedirect = require('heroku-ssl-redirect');
-var robots = require('robots.txt');
+//var robots = require('robots.txt');
 var compression = require('compression');
 
 
@@ -59,10 +59,10 @@ app.get("/verify-long", function(req,res){
   res.render("verify-long");
 });
 
-app.get('/sitemap.xml', function(req, res){
-    res.contentType('application/xml');
-    res.sendFile(path.join(__dirname , 'sitemap.xml'));
-});
+// app.get('/sitemap.xml', function(req, res){
+//     res.contentType('application/xml');
+//     res.sendFile(path.join(__dirname , 'sitemap.xml'));
+// });
 
 
 //verifyurl
